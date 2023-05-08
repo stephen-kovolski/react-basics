@@ -1,13 +1,11 @@
 //App.jsx
 import './App.css';
-import Post from './components/Post';
-
+import PostsList from './components/PostsList'
 
 function App() {
   return (
     <main>
-      <Post author='Steve' body='React gets confusing'/>
-      <Post author='Joseph' body='I like dinosaurs'/>
+      <PostsList />
     </main>
   );
 }
